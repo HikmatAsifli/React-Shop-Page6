@@ -1,0 +1,16 @@
+.students{
+    background-image: url(https://preview.colorlib.com/theme/course/images/testimonials_background.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(0.8);
+    .slide-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        img{
+            border-radius: 50%;
+        }
+    }
+}
