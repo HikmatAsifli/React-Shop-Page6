@@ -19,7 +19,7 @@ function App() {
       setData([...res.data]);
       console.log(res.data)
     });
-  }, [data]);
+  }, []);
 
   useEffect(() => {
     localStorage.setItem("basket", JSON.stringify(basket));

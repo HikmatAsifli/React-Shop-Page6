@@ -8,6 +8,7 @@ import { Helmet } from 'react-helmet-async'
 const Detail = () => {
     const {id}=useParams()
     const [itemData,setItemData]=useState([])
+    console.log(`${BASE_URL}${id}`)
 
     useEffect(() => {
           axios.get(`${BASE_URL}${id}`)
